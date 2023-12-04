@@ -1,4 +1,4 @@
-# 1. 배낭채우기 알고리즘
+# 1. 배낭채우기 알고리즘 (분기한정법 가지치기 DFS)
 def kp(i, profit, weight):
     global bestset
     global maxp
@@ -40,3 +40,4 @@ bestset = [0]*n
 kp(-1,0,0)
 print(maxp)
 print(bestset)
+
